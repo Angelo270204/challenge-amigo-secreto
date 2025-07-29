@@ -37,6 +37,50 @@ Para ejecutar el proyecto localmente, sigue estos pasos:
 > 🌐 También puedes probar la aplicación en línea a través de GitHub Pages:  
 [Ver aplicación en línea](https://angelo270204.github.io/challenge-amigo-secreto/)
 
+## 🧭 Guía visual paso a paso
+
+A continuación te mostramos el flujo de uso de la aplicación “Amigo Secreto” con imágenes:
+
+---
+
+### 🟢 Paso 1: Agrega un amigo
+Escribe un nombre en el campo de texto y haz clic en el botón “Añadir”.
+
+📌 **Botón a presionar:** `Añadir`
+
+![Paso 1 - Agregar amigo](assets/paso1-agregar-amigo.png)
+
+---
+
+### 📋 Paso 2: Visualiza la lista de participantes
+Al añadir un nombre válido, este aparecerá en una lista debajo del campo de texto.
+
+![Paso 2 - Lista actualizada](assets/paso2-lista.png)
+
+---
+
+### ⚠️ Paso 3: Validación de campo vacío
+Si haces clic en “Añadir” sin escribir un nombre, verás una alerta.
+
+![Paso 3 - Alerta](assets/paso3-alerta.png)
+
+---
+
+### 🎲 Paso 4: Sortear un amigo
+Haz clic en “Sortear amigo” para elegir aleatoriamente un participante.
+
+📌 **Botón a presionar:** `Sortear amigo`
+
+![Paso 4 - Sorteo](assets/paso4-sorteo.png)
+
+---
+
+### 🚫 Paso 5: Intentar sortear sin nombres
+Si haces clic en “Sortear amigo” sin haber agregado participantes, se mostrará una alerta.
+
+![Paso 5 - Sin amigos](assets/paso5-sin-amigos.png)
+
+
 ## 🚀 Tecnologías utilizadas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
