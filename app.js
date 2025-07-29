@@ -12,6 +12,7 @@ function agregarAmigo() {
     mostrarListaAmigos();
     document.getElementById('amigo').value = '';
   }
+  return;
 }
 
 function mostrarListaAmigos() {
@@ -23,4 +24,17 @@ function mostrarListaAmigos() {
     elementoLista.innerHTML = amigos[i];
     lista.appendChild(elementoLista);
   }
+  return;
+}
+
+function sortearAmigo() {
+  if(amigos.length==0){
+    alert('No hay ningun amigo agregado');
+  }else{
+    let indiceAleatorio = Math.floor(Math.random() * amigos.length);
+    console.log(indiceAleatorio);
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = amigos[indiceAleatorio];
+  }
+  return;
 }
