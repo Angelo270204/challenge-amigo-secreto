@@ -24,3 +24,15 @@ Puedes acceder al código fuente del proyecto de dos formas:
 
   ```bash
   git clone https://github.com/Angelo270204/challenge-amigo-secreto.git
+
+## 🛠️ Abre y ejecuta el proyecto
+
+Para ejecutar el proyecto localmente, sigue estos pasos:
+
+1. Descarga o clona el repositorio.
+2. Abre la carpeta del proyecto en tu computadora.
+3. Haz doble clic en el archivo `index.html` o ábrelo con tu navegador preferido.
+4. ¡Listo! Ya puedes interactuar con la aplicación.
+
+> 🌐 También puedes probar la aplicación en línea a través de GitHub Pages:  
+[Ver aplicación en línea](https://angelo270204.github.io/challenge-amigo-secreto/)
